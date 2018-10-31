@@ -196,7 +196,7 @@
     "bitness": 64,
     "linux_url": "https://storage.googleapis.com/wasm-llvm/builds/linux/%waterfall-lkgr%/wasm-binaries.tbz2",
     "install_path": "upstream/%waterfall-lkgr%",
-    "activated_path": "%installation_dir%",
+    "activated_path": "%installation_dir%/bin",
     "activated_cfg": "LLVM_ROOT='%installation_dir%/bin'"
   },
   {
@@ -205,7 +205,7 @@
     "bitness": 64,
     "linux_url": "https://storage.googleapis.com/wasm-llvm/builds/linux/%waterfall-lkgr%/wasm-binaries.tbz2",
     "install_path": "upstream/%waterfall-lkgr%",
-    "activated_path": "%installation_dir%",
+    "activated_path": "%installation_dir%/bin",
     "activated_cfg": "EMSCRIPTEN_ROOT='%installation_dir%/emscripten'"
   },
   {
@@ -214,7 +214,7 @@
     "bitness": 64,
     "linux_url": "https://storage.googleapis.com/wasm-llvm/builds/linux/%waterfall-lkgr%/wasm-binaries.tbz2",
     "install_path": "upstream/%waterfall-lkgr%",
-    "activated_path": "%installation_dir%",
+    "activated_path": "%installation_dir%/bin",
     "activated_cfg": "BINARYEN_ROOT='%installation_dir%'",
     "activated_env": "BINARYEN_ROOT=%installation_dir%"
   },
