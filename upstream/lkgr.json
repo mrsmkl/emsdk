@@ -2,39 +2,39 @@
   "repositories": {
     "libcxxabi": {
       "remote": "https://llvm.googlesource.com/libcxxabi.git", 
-      "subject": "Update docs to reference new libc++ mailing lists.", 
-      "hash": "dd73082d02640d8677d585c8a48243dcdd93e195", 
-      "name": "Eric Fiselier", 
-      "email": "eric@efcs.ca"
+      "subject": "[libc++abi] Provide __cxa_thread_atexit on Fuchsia", 
+      "hash": "87cbbdf78b808510005a309a238186d11af96430", 
+      "name": "Petr Hosek", 
+      "email": "phosek@chromium.org"
     }, 
     "binaryen": {
       "remote": "https://chromium.googlesource.com/external/github.com/WebAssembly/binaryen.git", 
-      "subject": "More #1678 fixes (#1685)", 
-      "hash": "ad9152e4973afa83d093600dda0d925f5c7cf714", 
+      "subject": "fix build on latest emscripten, where undefined symbols are now errors (#1714)", 
+      "hash": "9c7b910d88d1d08861dd35beccd4731cf2cb5354", 
       "name": "Alon Zakai", 
       "email": "alonzakai@gmail.com"
     }, 
     "gnuwin32": null, 
     "lld": {
       "remote": "https://llvm.googlesource.com/lld.git", 
-      "subject": "Fix an error message. It must start with a lowercase letter.", 
-      "hash": "3da143c786504fb5795eb5e70425728c9f4bbd4c", 
-      "name": "Rui Ueyama", 
-      "email": "ruiu@google.com"
+      "subject": "[ELF] Fallback to sh_link=0 if neither .dynsym nor .symtab exists", 
+      "hash": "f00db1e4b4b3587c71bc08714bfd2936f4064e57", 
+      "name": "Fangrui Song", 
+      "email": "maskray@google.com"
     }, 
     "cr-buildtools": {
       "remote": "https://chromium.googlesource.com/chromium/src/build.git", 
-      "subject": "PPC/s390: fix v8_current_cpu undefined error", 
-      "hash": "4325c991006e208acc46dc09b5c8e86d9a652415", 
-      "name": "Junliang Yan", 
-      "email": "jyan@ca.ibm.com"
+      "subject": "Refactoring gcc_toolchain compiler wrappers", 
+      "hash": "277ad4304168986653055957a3cf2c647cf10eb9", 
+      "name": "Yuke Liao", 
+      "email": "liaoyuke@chromium.org"
     }, 
     "compiler-rt": {
       "remote": "https://llvm.googlesource.com/compiler-rt.git", 
-      "subject": "[Profile] Fix gcov tests", 
-      "hash": "c5cf78381530dda36a14ef2eef0d94f8c87ae674", 
-      "name": "Calixte Denizet", 
-      "email": "cdenizet@mozilla.com"
+      "subject": "[asan] Remove stale -fno-exceptions flag in sanitizer_common as well", 
+      "hash": "70f56527d01041a391471b51c02aa97e2c241e54", 
+      "name": "Reid Kleckner", 
+      "email": "rnk@google.com"
     }, 
     "gcc": {
       "remote": "https://chromium.googlesource.com/chromiumos/third_party/gcc.git", 
@@ -45,39 +45,39 @@
     }, 
     "emscripten": {
       "remote": "https://chromium.googlesource.com/external/github.com/kripken/emscripten.git", 
-      "subject": "Enable more browser tests under chrome (#7170)", 
-      "hash": "caa254bf59e53881475a201de28caf472006b2a5", 
-      "name": "Sam Clegg", 
-      "email": "sbc@chromium.org"
+      "subject": "Disable lsr in the wasm backend [ci skip] (#7386)", 
+      "hash": "6ee9013d48af7ef26028e7aeed91a68be5cb28b0", 
+      "name": "Alon Zakai", 
+      "email": "alonzakai@gmail.com"
     }, 
     "libcxx": {
       "remote": "https://llvm.googlesource.com/libcxx.git", 
-      "subject": "Revert r342936 \"Remove redundant null pointer check in operator delete\"", 
-      "hash": "c4b44869daab09da2f559e88c5efb137a65b3dbf", 
+      "subject": "Correct ABI list change wrongly advertised as being in the 7.0 release", 
+      "hash": "3a73f018a28d32870f44c0cbd6163c58408828bc", 
       "name": "Louis Dionne", 
       "email": "ldionne@apple.com"
     }, 
     "nodejs": null, 
     "host-toolchain": {
       "remote": "/b/build/slave/cache_dir/chromium.googlesource.com-external-github.com-webassembly-waterfall", 
-      "subject": "Add torture XFails on Windows (#411)", 
-      "hash": "08355adfe96a76ce635e1ee6d1652cb9c6873757", 
-      "name": "Derek Schuff", 
-      "email": "dschuff@chromium.org"
+      "subject": "Fix expectations", 
+      "hash": "18dd01e12db92b81ce77b9adc29c5928b50edd21", 
+      "name": "Sam Clegg", 
+      "email": "sbc@chromium.org"
     }, 
     "fastcomp": {
       "remote": "https://chromium.googlesource.com/external/github.com/kripken/emscripten-fastcomp.git", 
-      "subject": "1.38.12", 
-      "hash": "49340ac23ed3065116323699f0c44498d5f15d37", 
-      "name": "Alon Zakai (kripken)", 
+      "subject": "sanitize declares. fixes kripken/emscripten#7361 (#238)", 
+      "hash": "272d3ff91b38eac051bdbaf6cf84db5c901ce2f8", 
+      "name": "Alon Zakai", 
       "email": "alonzakai@gmail.com"
     }, 
     "spec": {
       "remote": "https://chromium.googlesource.com/external/github.com/WebAssembly/spec.git", 
-      "subject": "Typo", 
-      "hash": "db9cd40808a90ecc5f4a23e88fb375c8f60b8d52", 
-      "name": "Andreas Rossberg", 
-      "email": "rossberg@chromium.org"
+      "subject": "[test] Test 'tee_local' and 'set_global' in more operators (#901)", 
+      "hash": "c90bc9686f1a90b76fb2ec782256d26323164c91", 
+      "name": "Wanming Lin", 
+      "email": "wanming.lin@intel.com"
     }, 
     "ocamlbuild": {
       "remote": "https://github.com/ocaml/ocamlbuild.git", 
@@ -88,10 +88,10 @@
     }, 
     "llvm": {
       "remote": "https://llvm.googlesource.com/llvm.git", 
-      "subject": "Revert \"[DebugInfo] Do not generate address info for removed debug labels.\"", 
-      "hash": "7a725b21869ad0a38252c8a2f63f69dc2b4adf43", 
-      "name": "Justin Bogner", 
-      "email": "mail@justinbogner.com"
+      "subject": "[LV] Support vectorization of interleave-groups that require an epilog under optsize using masked wide loads", 
+      "hash": "06bac6c858af2917bd8c9eeb3763042f12906d79", 
+      "name": "Dorit Nuzman", 
+      "email": "dorit.nuzman@intel.com"
     }, 
     "musl": {
       "remote": "https://github.com/jfbastien/musl.git", 
@@ -102,33 +102,33 @@
     }, 
     "clang": {
       "remote": "https://llvm.googlesource.com/clang.git", 
-      "subject": "[DRIVER][OFFLOAD] Do not invoke unbundler on unsupported file types.", 
-      "hash": "85a2860cfa0093a53d69ea3bb07479ccfc681d0e", 
-      "name": "Alexey Bataev", 
-      "email": "a.bataev@hotmail.com"
+      "subject": "[clang-cl] Inherit dllexport to static locals also in template instantiations (PR39496)", 
+      "hash": "f9567535a365e87748140b41fa9b0f9befbf5122", 
+      "name": "Hans Wennborg", 
+      "email": "hans@hanshq.net"
     }, 
     "waterfall": {
       "remote": "/b/build/slave/cache_dir/chromium.googlesource.com-external-github.com-webassembly-waterfall", 
-      "subject": "Add torture XFails on Windows (#411)", 
-      "hash": "08355adfe96a76ce635e1ee6d1652cb9c6873757", 
-      "name": "Derek Schuff", 
-      "email": "dschuff@chromium.org"
+      "subject": "Fix expectations", 
+      "hash": "18dd01e12db92b81ce77b9adc29c5928b50edd21", 
+      "name": "Sam Clegg", 
+      "email": "sbc@chromium.org"
     }, 
     "v8": {
       "remote": "https://chromium.googlesource.com/v8/v8.git", 
-      "subject": "[wasm] Avoid internal use of Maybe", 
-      "hash": "a345e766ae2920283c7f7dc9558649d187ea6187", 
-      "name": "Clemens Hammacher", 
-      "email": "clemensh@chromium.org"
+      "subject": "[snapshot] Remove the builtins snapshot", 
+      "hash": "4ef0e79cba592ee16d279587dc8393bfb229f995", 
+      "name": "Jakob Gruber", 
+      "email": "jgruber@chromium.org"
     }, 
     "cmake": null, 
     "java": null, 
     "llvm-test-suite": {
       "remote": "https://llvm.googlesource.com/test-suite.git", 
-      "subject": "[test-suite, CUDA] Enable tests w/ CUDA-10.0", 
-      "hash": "4085cae4b32fe27ea3a401b93a0e716ad6e39fc2", 
-      "name": "Artem Belevich", 
-      "email": "tra@google.com"
+      "subject": "CMakeLists.txt: Only add rsync target if TEST_SUITE_REMOTE_HOST was specified", 
+      "hash": "1907cd0f10994d469d195e72a6aa858476d777f7", 
+      "name": "Matthias Braun", 
+      "email": "matze@braunis.de"
     }, 
     "ocaml": {
       "remote": "https://github.com/ocaml/ocaml.git", 
@@ -139,19 +139,19 @@
     }, 
     "fastcomp-clang": {
       "remote": "https://chromium.googlesource.com/external/github.com/kripken/emscripten-fastcomp-clang.git", 
-      "subject": "1.38.12", 
-      "hash": "c0a68f4121de3f6fb2f2a503e89d1b0e5cdf68a9", 
-      "name": "Alon Zakai (kripken)", 
-      "email": "alonzakai@gmail.com"
+      "subject": "1.38.15", 
+      "hash": "08c6b15b1e82b53442dfac040d0adc080400f3e1", 
+      "name": "Alon Zakai", 
+      "email": "azakai@google.com"
     }, 
     "wabt": {
       "remote": "https://chromium.googlesource.com/external/github.com/WebAssembly/wabt.git", 
-      "subject": "Don't install wabt-unittests; refactor CMakeLists (#913)", 
-      "hash": "718688b8d26f7a270054fb49f99360663fbcece7", 
+      "subject": "Set `end_loc` in folded `if` expressions (#940)", 
+      "hash": "39ceee53a9cd23451a28d4e56e151ef76044b5df", 
       "name": "Ben Smith", 
       "email": "binjimin@gmail.com"
     }
   }, 
-  "build": "35928", 
+  "build": "36852", 
   "scheduler": "llvm"
 }
